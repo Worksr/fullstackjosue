@@ -12,7 +12,7 @@ titulo{
     text-align: center;    
 }
 subtitulo {
-    background-color: gray;
+    background: black;
     color: white;
 }
 copyright {
@@ -30,7 +30,7 @@ a.center-text{
 }
 
 #Cuerpo1{
-    background: darkgray;
+    background: black;
 }
 #Titulo1{
     background: darkred;
@@ -39,7 +39,7 @@ a.center-text{
     background: purple;
 }
 #Formulario1{
-    background: darkcyan;
+    background: gray;
 }
 @media (min-width:800px){
     #Cuerpo1{
