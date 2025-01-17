@@ -8,12 +8,12 @@ parrafo {
 }
 titulo{
     background-color: black;
-    color: darkgoldenrod;
+    color: whitesmoke;
     text-align: center;    
 }
 subtitulo {
     background-color: gray;
-    color: black;
+    color: white;
 }
 copyright {
     background-color: black;
@@ -29,6 +29,20 @@ a.center-text{
     display: block;
 }
 
-.Cuerpo1{
-    background-color: black;
+#Cuerpo1{
+    background: darkgray;
+}
+#Titulo1{
+    background: darkred;
+}
+#Footer1{
+    background: purple;
+}
+#Formulario1{
+    background: darkcyan;
+}
+@media (min-width:800px){
+    #Cuerpo1{
+        width: 50%;
+    }
 }
